@@ -1,0 +1,76 @@
+:root{
+    /* primitive */
+         /* color */
+             /* Branding Badara, Madieume */ 
+                /* primary Badara*/
+                --primary-50:#EEF2FF;
+                --primary-100:#E0E7FF;
+                --primary-200:#C7D2FE;
+
+                /* secondary Madieume*/
+                --secondary-50:#FEFCE8;
+
+            /* Neutral Mamadou D. Diallo */
+
+            /* Informative Djamilatou ,Awa*/
+
+                /* information Awa */
+
+                /* Error  Awa*/
+
+                /* Warning Djamilatou */
+
+                /* Success Djamilatou*/
+
+        /* Number Issa */
+        
+
+        /* Typography Mamadou D. Diallo */
+
+
+    /* token */
+        /* Surface Madieume*/
+        
+        /* container Issa*/
+            /* color */
+
+            /* Radius */
+
+            /* Sizing */
+
+       /* texte Badara */
+            /* color */ 
+
+            /* Font_size */ 
+
+            /* Font_family */
+
+            /* weight */   
+
+            /* Letter_spacing */ 
+
+            /* Line_height */ 
+
+    --text-primary-onColor:var(--primary-50);
+
+        /* Icons Djamilatou*/  
+
+        /* button Amadou*/
+    --button-primary:var(--primary-100);
+    --button-primary-hover:var(--primary-200);
+
+        /* Border Amadou*/
+
+        /* spacing Awa */
+
+            /* Padding */ 
+
+            /* Margine */ 
+     
+  
+}
+
+.button-primary{
+    background-color:var(--button-primary);
+    color: var(--text-primary-onColor);
+}
