@@ -11,7 +11,27 @@
                 --secondary-50:#FEFCE8;
 
             /* Neutral Mamadou D. Diallo */
-
+            --NP-0: #000000;
+            --NP-4: #0E0E11;
+            --NP-5: #101114;
+            --NP-6: #131316;
+            --NP-10: #1B1B1F;
+            --NP-12: #1F1F23;
+            --NP-17: #2A2A2D;
+            --NP-20: #303034;
+            --NP-22: #343438;
+            --NP-24: #39393C;
+            --NP-30: #47464A;
+            --NP-35: #525256;
+            --NP-50: #77767A;
+            --NP-60: #919094;
+            --NP-70: #ACAAAF;
+            --NP-80: #C8C6CA;
+            --NP-87: #DBD9DE;
+            --NP-90: #E4E1E6;
+            --NP-94: #F0EDF1;
+            --NP-96: #F5F3F7;
+            --NP-100: #FFFFFF;
             /* Informative Djamilatou ,Awa*/
 
                 /* information Awa */
@@ -26,7 +46,8 @@
         
 
         /* Typography Mamadou D. Diallo */
-
+        --typo-1: 'RedHatDisplay';
+        --typo-2: 'Inter';
 
     /* token */
         /* Surface Madieume*/
