@@ -6,6 +6,14 @@
                 --primary-50:#EEF2FF;
                 --primary-100:#E0E7FF;
                 --primary-200:#C7D2FE;
+                --primary-300:#A5B4FC;
+                --primary-400:#818CF8;
+                --primary-500:#6366F1;
+                --primary-600:#4F46E5;
+                --primary-700:#4338CA;
+                --primary-800:#3730A3;
+                --primary-900:#312E81;
+                --primary-950:#1E1B4B;
 
                 /* secondary Madieume*/
                 --secondary-50:#FEFCE8;
@@ -40,6 +48,20 @@
 
        /* texte Badara */
             /* color */ 
+            --Text_primary:#FFFFFF;
+            --Text_secondary:#FFFFFF;
+            --Text_placeholder:#FFFFFF;
+            --Text_primary_oncolor:#FFFFFF;
+            --Text_secondary_oncolor:#FFFFFF;
+            --Text_helper:#FFFFFF;
+            --Text_error:#FFFFFF;
+            --Text_success:#FFFFFF;
+            --Text_warning:#FFFFFF;
+            --Text_informative:#FFFFFF;
+            --Text_inverse:#FFFFFF;
+            --Text_disabled:#FFFFFF;
+            --Text_disabled_oncolor:#FFFFFF;
+ 
 
             /* Font_size */ 
 
@@ -48,6 +70,18 @@
             /* weight */   
 
             /* Letter_spacing */ 
+            --tracking-1:0;
+            --tracking-2:0;
+            --tracking-3:0;
+            --tracking-4:0;
+            --tracking-5:0;
+            --tracking-6:0;
+            --tracking-7:0;
+            --tracking-8:0;
+            --tracking-9:0;
+            --tracking-10:0;
+            --tracking-11:0;
+            --tracking-12:0;
 
             /* Line_height */ 
 
