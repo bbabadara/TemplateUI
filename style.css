@@ -1,98 +1,126 @@
-:root{
+:root {
     /* primitive */
-         /* color */
-             /* Branding Badara, Madieume */ 
-                /* primary Badara*/
-                --primary-50:#EEF2FF;
-                --primary-100:#E0E7FF;
-                --primary-200:#C7D2FE;
+    /* color */
+    /* Branding Badara, Madieume */
+    /* primary Badara*/
+    --primary-50: #EEF2FF;
+    --primary-100: #E0E7FF;
+    --primary-200: #C7D2FE;
 
-                /* secondary Madieume*/
-                --secondary-50:#FEFCE8;
+    /* secondary Madieume*/
+    --secondary-50: #FEFCE8;
 
-            /* Neutral Mamadou D. Diallo */
+    /* Neutral Mamadou D. Diallo */
 
-            /* Informative Djamilatou ,Awa*/
+    /* Informative Djamilatou ,Awa*/
 
 
-                /* information Awa */
-                    --information-50: #172554;
-                    --information-100: #1E3A8A;
-                    --information-200: #1E40AF;
-                    --information-300: #1D4ED8;
-                    --information-400: #2563EB;
-                    --information-500: #3B82F6;
-                    --information-600: #60A5FA;
-                    --information-700: #93C5FD;
-                    --information-800: #BFDBFE;
-                    --information-900: #DBEAFE;
-                    --information-950: #EFF6FF;
-                /* Error  Awa*/
-                    --error-50: #450A0A;
-                    --error-100: #7F1D1D;
-                    --error-200: #991B1B;
-                    --error-300: #B91C1C;
-                    --error-400: #DC2626;
-                    --error-500: #EF4444;
-                    --error-600: #F87171;
-                    --error-700: #FCA5A5;
-                    --error-800: #FECACA;
-                    --error-900: #FEE2E2;
-                    --error-950: #FEF2F2;
-                /* Warning Djamilatou */
+    /* information Awa */
+    --information-50: #172554;
+    --information-100: #1E3A8A;
+    --information-200: #1E40AF;
+    --information-300: #1D4ED8;
+    --information-400: #2563EB;
+    --information-500: #3B82F6;
+    --information-600: #60A5FA;
+    --information-700: #93C5FD;
+    --information-800: #BFDBFE;
+    --information-900: #DBEAFE;
+    --information-950: #EFF6FF;
+    /* Error  Awa*/
+    --error-50: #450A0A;
+    --error-100: #7F1D1D;
+    --error-200: #991B1B;
+    --error-300: #B91C1C;
+    --error-400: #DC2626;
+    --error-500: #EF4444;
+    --error-600: #F87171;
+    --error-700: #FCA5A5;
+    --error-800: #FECACA;
+    --error-900: #FEE2E2;
+    --error-950: #FEF2F2;
+    /* Warning Djamilatou */
 
-                /* Success Djamilatou*/
+    /* Success Djamilatou*/
 
-        /* Number Issa */
-        
+    /* Number Issa */
 
-        /* Typography Mamadou D. Diallo */
+
+    /* Typography Mamadou D. Diallo */
 
 
     /* token */
-        /* Surface Madieume*/
-        
-        /* container Issa*/
-            /* color */
+    /* Surface Madieume*/
 
-            /* Radius */
+    /* container Issa*/
+    /* color */
 
-            /* Sizing */
+    /* Radius */
 
-       /* texte Badara */
-            /* color */ 
+    /* Sizing */
 
-            /* Font_size */ 
+    /* texte Badara */
+    /* color */
 
-            /* Font_family */
+    /* Font_size */
 
-            /* weight */   
+    /* Font_family */
 
-            /* Letter_spacing */ 
+    /* weight */
 
-            /* Line_height */ 
+    /* Letter_spacing */
 
-    --text-primary-onColor:var(--primary-50);
+    /* Line_height */
 
-        /* Icons Djamilatou*/  
+    --text-primary-onColor: var(--primary-50);
 
-        /* button Amadou*/
-    --button-primary:var(--primary-100);
-    --button-primary-hover:var(--primary-200);
+    /* Icons Djamilatou*/
 
-        /* Border Amadou*/
+    /* button Amadou*/
+    --button-primary: var(--primary-100);
+    --button-primary-hover: var(--primary-200);
 
-        /* spacing Awa */
+    /* Border Amadou*/
 
-            /* Padding */ 
+    /* spacing Awa */
 
-            /* Margine */ 
-              /* Margine Light Mode*/ 
-                --margin-1: # Number/Base/4/4
-  
+    /* Padding */
+    --pad-1: var(--num-4);
+    --pad-2: var(--num-8);
+    --pad-3: var(--num-12);
+    --pad-4: var(--num-16);
+    --pad-5: var(--num-20);
+    --pad-6: var(--num-24);
+    --pad-7: var(--num-28);
+    --pad-8: var(--num-32);
+    --pad-9: var(--num-36);
+    --pad-10: var(--num-40);
+    --pad-11: var(--num-48);
+    --pad-12: var(--num-56);
+    /* Margine */
+    --mar-1: var(--num-4);
+    --mar-2: var(--num-8);
+    --mar-3: var(--num-12);
+    --mar-4: var(--num-16);
+    --mar-5: var(--num-20);
+    --mar-6: var(--num-24);
+    --mar-7: var(--num-28);
+    --mar-8: var(--num-32);
+    --mar-9: var(--num-36);
+    --mar-10: var(--num-40);
+    --mar-11: var(--num-48);
+    --mar-12: var(--num-56);
+
+
+
+
+
+
+
+
 }
 
-.button-primary{
-    background-color:var(--button-primary);
+.button-primary {
+    background-color: var(--button-primary);
     color: var(--text-primary-onColor);
 }
