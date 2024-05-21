@@ -16,7 +16,17 @@
                 --p-950:#1E1B4B;
 
                 /* secondary Madieume*/
-                --secondary-50:#FEFCE8;
+                --S-50:#422006;
+                --S-100:#713F12;
+                --S-200:#854D0E;
+                --S-300:#A16207;
+                --S-400:#CA8A04;
+                --S-500:#EAB308;
+                --S-600:#FACC15;
+                --S-700:#FDE047;
+                --S-800:#FEF08A;
+                --S-900:#FEF9C3;
+                --S-950:#FEFCE8;
 
             /* Neutral Mamadou D. Diallo */
             --NP-0: #000000;
@@ -43,14 +53,76 @@
             /* Informative Djamilatou ,Awa*/
 
                 /* information Awa */
-
+                --INF-50: #172554;
+                --INF-100: #1E3A8A;
+                --INF-200: #1E40AF;
+                --INF-300: #1D4ED8;
+                --INF-400: #2563EB;
+                --INF-500: #3B82F6;
+                --INF-600: #60A5FA;
+                --INF-700: #93C5FD;
+                --INF-800: #BFDBFE;
+                --INF-900: #DBEAFE;
+                --INF-950: #EFF6FF;
                 /* Error  Awa*/
+                --ER-50: #450A0A;
+                --ER-100: #7F1D1D;
+                --ER-200: #991B1B;
+                --ER-300: #B91C1C;
+                --ER-400: #DC2626;
+                --ER-500: #EF4444;
+                --ER-600: #F87171;
+                --ER-700: #FCA5A5;
+                --ER-800: #FECACA;
+                --ER-900: #FEE2E2;
+                --ER-950: #FEF2F2;
 
                 /* Warning Djamilatou */
-
+                --WA-50:#431407;
+                --WA-100:#7C2D12;
+                --WA-200:#9A3412;
+                --WA-300:#C2410C;
+                --WA-400:#EA580C;
+                --WA-500:#F97316;
+                --WA-600:#FB923C;
+                --WA-700:#FDBA74;
+                --WA-800:#FED7AA;
+                --WA-900:#FFEDD5;
+                --WA-950:#FFF7ED;
                 /* Success Djamilatou*/
+                --SU-50:#022C22;
+                --SU-100:#14532D;
+                --SU-200:#166534;
+                --SU-300:#15803D;
+                --SU-400:#16A34A;
+                --SU-500:#22C55E;
+                --SU-600:#4ADE80;
+                --SU-700:#86EFAC;
+                --SU-800:#BBF7D0;
+                --SU-900:#DCFCE7;
+                --SU-950:#F0FDF4;
 
         /* Number Issa */
+            --num-4: 4px;
+            --num-8: 8px;
+            --num-12: 12px;
+            --num-16: 16px;
+            --num-20: 20px;
+            --num-24: 24px;
+            --num-28: 28px;
+            --num-32: 32px;
+            --num-36: 36px;
+            --num-40: 40px;
+            --num-48: 48px;
+            --num-56: 56px;
+            --num-64: 64px;
+            --num-72: 72px;
+            --num-80: 80px;
+            --num-92: 92px;
+            --num-100: 100px;
+            --num-112: 112px;
+            --num-120: 120px;
+            --num-128: 128px;
         
 
         /* Typography Mamadou D. Diallo */
@@ -59,12 +131,23 @@
 
     /* token */
         /* Surface Madieume*/
-        
+        --Surface_main:#F5F3F7;
+        --Surface_Bright:#FFFFFF;
         /* container Issa*/
             /* color */
-
+            --Container_lowest:var(--NP-1000);
+            --Container_low:var(--NP-960);
+            --Container_low_hover:var(--NP-900);
+            --Container_main:var(--NP-940);
+            --Container_main_hover:var(--NP-870);
+            --Container_high:var(--NP-900);
+            --Container_high_hover:var(--NP-800);
+            --Container_highest:var(--NP-800);
+            --Container_highest_hover:var(--NP-700);
+            --Container_inverse:var(--NP-40);
+            --Container_inverse_hover:var(--NP-60);
             /* Radius */
-
+    
             /* Sizing */
 
        /* texte Badara */
@@ -148,18 +231,63 @@
 
 
         /* Icons Djamilatou*/  
-
+        --Icon-primary:var(--NP-60);
+        --Icon-secondary:var(--NP-300);
+        --Icon-encolor:var(--NP-1000);
+        --Icon-inverse:var(--NP-1000);
+        --Icon-disabled:var(--NP-700);
+        --Icon-disabled-oncolor:var(--p-400);
+        --Icon-success:var(--SU-400);
+        --Icon-error:var(--ER-400);
+        --Icon-warning:var(--WA-400);
+        --Icon-infomative:var(--INF-400);
+        --Icon-onspecial-1:var(--p-200);
+        --Icon-onspecial-2:var(--P-800);
         /* button Amadou*/
-    --button-primary:var(--primary-100);
-    --button-primary-hover:var(--primary-200);
-
-        /* Border Amadou*/
+        --button-primary:var(--primary-100);
+        --button-primary-hover:var(--primary-200);
+        --button-secondary:var(--NP-700);
+        --button-secondary-hover:var(--NP-600);
+        --button-tertiary:var(--NP-0);
+        --button-tertiary-hover:var(--NP-100);
+        --button-disabled:var(--NP-800);
+        --button-link:var(--P-300);
+        --button-link-hover:var(--P-500);
+    
+            /* Border Amadou*/
+            --border-1-light:var(--NP-500);
+            --border-1-dark:var(--NP-600);
+            --border-2-light:var(--NP-800);
+            --border-2-dark:var(--NP-300);
 
         /* spacing Awa */
 
-            /* Padding */ 
-
-            /* Margine */ 
+           /* Padding */
+    --pad-1: var(--num-4);
+    --pad-2: var(--num-8);
+    --pad-3: var(--num-12);
+    --pad-4: var(--num-16);
+    --pad-5: var(--num-20);
+    --pad-6: var(--num-24);
+    --pad-7: var(--num-28);
+    --pad-8: var(--num-32);
+    --pad-9: var(--num-36);
+    --pad-10: var(--num-40);
+    --pad-11: var(--num-48);
+    --pad-12: var(--num-56);
+    /* Margine */
+    --mar-1: var(--num-4);
+    --mar-2: var(--num-8);
+    --mar-3: var(--num-12);
+    --mar-4: var(--num-16);
+    --mar-5: var(--num-20);
+    --mar-6: var(--num-24);
+    --mar-7: var(--num-28);
+    --mar-8: var(--num-32);
+    --mar-9: var(--num-36);
+    --mar-10: var(--num-40);
+    --mar-11: var(--num-48);
+    --mar-12: var(--num-56);
      
   
 }
