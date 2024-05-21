@@ -1,129 +1,109 @@
-:root{
-    /* primitive */
-         /* color */
-             /* Branding Badara, Madieume */ 
-                /* primary Badara*/
-                --primary-50:#EEF2FF;
-                --primary-100:#E0E7FF;
-                --primary-200:#C7D2FE;
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 
-                /* secondary Madieume*/
-                --secondary-50:#FEFCE8;
-
-            /* Neutral Mamadou D. Diallo */
-            --NP-0: #000000;
-            --NP-40: #0E0E11;
-            --NP-50: #101114;
-            --NP-60: #131316;
-            --NP-100: #1B1B1F;
-            --NP-120: #1F1F23;
-            --NP-170: #2A2A2D;
-            --NP-200: #303034;
-            --NP-220: #343438;
-            --NP-240: #39393C;
-            --NP-300: #47464A;
-            --NP-350: #525256;
-            --NP-500: #77767A;
-            --NP-600: #919094;
-            --NP-700: #ACAAAF;
-            --NP-800: #C8C6CA;
-            --NP-870: #DBD9DE;
-            --NP-900: #E4E1E6;
-            --NP-940: #F0EDF1;
-            --NP-960: #F5F3F7;
-            --NP-1000: #FFFFFF;
-            /* Informative Djamilatou ,Awa*/
-
-                /* information Awa */
-
-                /* Error  Awa*/
-
-                /* Warning Djamilatou */
-
-                /* Success Djamilatou*/
-
-        /* Numbers Issa */
-            /* Base 4 */
-            --num-4: 4px;
-            --num-8: 8px;
-            --num-12: 12px;
-            --num-16: 16px;
-            --num-20: 20px;
-            --num-24: 24px;
-            --num-28: 28px;
-            --num-32: 32px;
-            --num-36: 36px;
-            --num-40: 40px;
-            --num-48: 48px;
-            --num-56: 56px;
-            --num-64: 64px;
-            --num-72: 72px;
-            --num-80: 80px;
-            --num-92: 92px;
-            --num-100: 100px;
-            --num-112: 112px;
-            --num-120: 120px;
-            --num-128: 128px;
-
-            /* Centaines */
-            --cent-1: 100px;
-            --cent-2: 200px;
-            --cent-3: 300px;
-            --cent-4: 400px;
-            --cent-5: 500px;
-            --cent-6: 600px;
-            --cent-7: 700px;
-            --cent-8: 800px;
-            --cent-9: 900px;
-
-
-        /* Typography Mamadou D. Diallo */
-        --typo-1: 'RedHatDisplay';
-        --typo-2: 'Inter';
-
-    /* token */
-        /* Surface Madieume*/
-        
-        /* container Issa*/
-            /* color */
-
-            /* Radius */
-
-            /* Sizing */
-
-       /* texte Badara */
-            /* color */ 
-
-            /* Font_size */ 
-
-            /* Font_family */
-
-            /* weight */   
-
-            /* Letter_spacing */ 
-
-            /* Line_height */ 
-
-    --text-primary-onColor:var(--primary-50);
-
-        /* Icons Djamilatou*/  
-
-        /* button Amadou*/
-    --button-primary:var(--primary-100);
-    --button-primary-hover:var(--primary-200);
-
-        /* Border Amadou*/
-
-        /* spacing Awa */
-
-            /* Padding */ 
-
-            /* Margine */ 
-     
-  
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-secondary {
+    background: var(--button-secondary);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+.state-layer {
+    border-radius: var(--container-radius-radius-2, 12px);
+    padding: var(--pad-4) var(--pad-6) var(--pad-4) var(--pad-6) ;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    cursor: pointer;
+}
+.icon {
+    color: var(--icon-primary);
+}
+.label-text {
+    color: var(--text-primary);
+    text-align: center;
+    font-family: "Unbounded", sans-serif;
+    font-size: var(--Button);
+    font-weight: var(--SemiBold);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.state-layer:hover {
+    background: var(--button-secondary-hover);
 }
 
-.button-primary{
-    background-color:var(--button-primary);
-    color: var(--text-primary-onColor);
+.search-bar {
+    background: var(--Container_high);
+    border-radius:32px;
+    padding: var(--pad-2) var(--pad-2) var(--pad-2) var(--pad-4);
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+    justify-content: flex-start;
+    width: 300px;
+    position: relative;
+}
+
+.supporting-text {
+    color: var(--text-primary);
+    text-align: left;
+    font-family: "inter", sans-serif;
+    font-size: var(--m3-body-large-font-size, 16px);
+    line-height: var(--m3-body-large-line-height, 24px);
+    letter-spacing: var(--m3-body-large-letter-spacing, 0.5px);
+    font-weight: var(--Regular);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.search-bar:hover{
+    background: var(--Container_high_hover);
+}
+
+.chips {
+    background: var(--Container_high);
+    border-radius: var(--container-radius-radius-2, 12px);
+    padding: var(--pad-1) var(--pad-2) var(--pad-1) var(--pad-4);
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    position: relative;
+}
+.label-text-chips {
+    color: var(--text-primary);
+    text-align: center;
+    font-family: "inter", sans-serif;
+    font-size: var(--m3-label-large-font-size, 14px);
+    line-height: var(--m3-label-large-line-height, 20px);
+    letter-spacing: var(--m3-label-large-letter-spacing, 0.1px);
+    font-weight: var(--Regular);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chips:hover{
+    background: var(--Container_high_hover);
 }
