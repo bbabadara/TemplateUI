@@ -42,7 +42,7 @@
 
                 /* Success Djamilatou*/
 
-        /* Number Issa */
+        /* Numbers Issa */
             /* Base 4 */
             --num-4: 4px;
             --num-8: 8px;
@@ -64,6 +64,17 @@
             --num-112: 112px;
             --num-120: 120px;
             --num-128: 128px;
+
+            /* Centaines */
+            --cent-1: 100px;
+            --cent-2: 200px;
+            --cent-3: 300px;
+            --cent-4: 400px;
+            --cent-5: 500px;
+            --cent-6: 600px;
+            --cent-7: 700px;
+            --cent-8: 800px;
+            --cent-9: 900px;
 
 
         /* Typography Mamadou D. Diallo */
