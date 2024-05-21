@@ -1,4 +1,6 @@
 :root{
+    --Typo1:"Red Hat Display";
+    --Typo2:"Inter";
     /* primitive */
          /* color */
              /* Branding Badara, Madieume */ 
@@ -64,10 +66,47 @@
  
 
             /* Font_size */ 
+            --Display-1:128;
+            --Display-2:112;
+            --Display-3:100;
+            --Display-4:92;
+            --Headline-1:64;
+            --Headline-2:48;
+            --Headline-3:40;
+            --Headline-4:36;
+            --Subtitle-1:32;
+            --Subtitle-2:24;
+            --subtitle-3:20;
+            --Topline-1:20;
+            --Topline-2:16;
+            --Button:16;
+            --Input:16;
+            --Caption:12;
+            --Label:12;
+            --Body-1:16;
+            --Body-2:12;
 
             /* Font_family */
+            --Display:var(var(--Typo1));
+            --Headline:var(var(--Typo1));
+            --subtitle:var(var(--Typo1));
+            --Topline:var(var(--Typo2));
+            --Button:var(var(--Typo2));
+            --Input:var(var(--Typo2));
+            --Caption:var(var(--Typo2));
+            --Label:var(var(--Typo2));
+            --Body:var(var(--Typo2));
 
-            /* weight */   
+            /* weight */
+            --Thin:100;
+            --UltraLight:200;
+            --Light:300;
+            --Regular:400;
+            --Medium:500;
+            --SemiBold:600;
+            --Bold:700;
+            --SemiBlack:800;
+            --Black:900;
 
             /* Letter_spacing */ 
             --tracking-1:0;
@@ -84,8 +123,8 @@
             --tracking-12:0;
 
             /* Line_height */ 
+            --Leading-1:0;
 
-    --text-primary-onColor:var(--primary-50);
 
         /* Icons Djamilatou*/  
 
