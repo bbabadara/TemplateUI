@@ -58,8 +58,19 @@
         /* button Amadou*/
     --button-primary:var(--primary-100);
     --button-primary-hover:var(--primary-200);
+    --button-secondary:var(--NP-700)
+    --button-secondary-hover:var(--NP-600);
+    --button-tertiary:var(--NP-0)
+    --button-tertiary-hover:var(--NP-100);
+    --button-disabled:var(--NP-800);
+    --button-link:var(--P-300);
+    --button-link-hover:var(--P-500);
 
         /* Border Amadou*/
+        --border-1-light:var(--NP-500);
+        --border-1-dark:var(--NP-600);
+        --border-2-light:var(--NP-800);
+        --border-2-dark:var(--NP-300);
 
         /* spacing Awa */
 
