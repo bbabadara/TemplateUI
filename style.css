@@ -43,7 +43,28 @@
                 /* Success Djamilatou*/
 
         /* Number Issa */
-        
+            /* Base 4 */
+            --num-4: 4px;
+            --num-8: 8px;
+            --num-12: 12px;
+            --num-16: 16px;
+            --num-20: 20px;
+            --num-24: 24px;
+            --num-28: 28px;
+            --num-32: 32px;
+            --num-36: 36px;
+            --num-40: 40px;
+            --num-48: 48px;
+            --num-56: 56px;
+            --num-64: 64px;
+            --num-72: 72px;
+            --num-80: 80px;
+            --num-92: 92px;
+            --num-100: 100px;
+            --num-112: 112px;
+            --num-120: 120px;
+            --num-128: 128px;
+
 
         /* Typography Mamadou D. Diallo */
         --typo-1: 'RedHatDisplay';
