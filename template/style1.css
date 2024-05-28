@@ -1,0 +1,55 @@
+.state-layer,
+.state-layer * {
+  box-sizing: border-box;
+}
+.state-layer {
+  border-radius: 12px;
+  padding: 10px 24px 10px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon {
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  overflow: visible;
+}
+/* .label-text {
+  color: var(--Text_primary);
+  text-align: center;
+  font-family: var(--typo-1);
+  font-size: var(--m3-label-large-font-size, 14px);
+  line-height: var(--m3-label-large-line-height, 20px);
+  letter-spacing: var(--m3-label-large-letter-spacing, 0.1px);
+  font-weight: var(--m3-label-large-font-weight, 500);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+button{
+    font-family: var(--typo-1);
+}
+
+.Icontain{
+    border-radius: raduis;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(72, 67, 67);
+    color: white;
+}
+
+.Icontain input{
+  
+
+
+}
